@@ -1,0 +1,26 @@
+.board-item-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.board-item-go-list-btn {
+    border: 0;
+    padding: 10px;
+    background-color: #ffd9d9;
+}
+
+.board-item-row {
+    margin: 10px 0;
+    display: flex;
+}
+
+.board-item-row>label:first-child {
+    margin: 10px 0;
+    width: 30%;
+    font-weight: bold;
+}
+
+.board-item-row>*:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+}

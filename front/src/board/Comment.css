@@ -1,0 +1,75 @@
+.comment-form {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ps_box {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.int {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.comment-row-form {
+    display: flex;
+}
+
+.del {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.comment {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+    /* 다른 스타일 추가 가능 */
+}
+
+.comment-row {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 1200px;
+}
+
+.comment-id {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.comment-content {
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    color: #888;
+    font-size: 12px;
+}

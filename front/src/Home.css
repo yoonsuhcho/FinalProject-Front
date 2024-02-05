@@ -1,0 +1,102 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --accent-color: #dadada;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*body {*/
+/*    font-family: 'STIX Two Math', serif;*/
+/*}*/
+
+.home .nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.home .nav .logo img {
+    width: 200px;
+}
+
+.home .nav .nav_but a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.home .nav_bar {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0;
+}
+
+.home .nav_bar .nav_bar_menu {
+    padding: 0;
+    font-size: 16px;
+    padding: 10px 5px;
+}
+
+.home .nav_bar .nav_bar_menu a {
+    width: 100px;
+    padding: 20px 70px;
+}
+
+.home .nav_bar .nav_bar_menu a:hover {
+    background-color: var(--accent-color);
+    border-radius: 10px;
+}
+
+.home .header {
+    background: url(./img/home.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .header .title {
+    text-align: center;
+}
+
+.home .header .title h1 {
+    font-size: 40px;
+    color: black;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.home .header .title p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.home .header .title button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: .5s ease;
+}
+
+.home .header .title button:hover {
+    transition: .5s ease;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
